@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "b87d83e8-0a26-44ab-a767-522c66c0fa89",
+		"name": "items-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "top-stories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v0/item/top-stories",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v0",
+						"item",
+						"top-stories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "past-stories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v0/item/past-stories",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v0",
+						"item",
+						"past-stories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/comments/{parentId}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v0/item/comments/2921983",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v0",
+						"item",
+						"comments",
+						"2921983"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
